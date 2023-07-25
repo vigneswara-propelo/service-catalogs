@@ -1,0 +1,33 @@
+---
+kind: "Component"
+spec:
+  type: "Service"
+  lifecycle: "production"
+  owner: "idpui"
+  system: "PREQA_NG_Pipelines"
+  dependsOn: 
+    - Component:idp-service
+  consumesApis:
+    - idp-service
+apiVersion: "backstage.io/v1alpha1"
+metadata:
+  name: "idp-admin"
+  description: IDP admin/settings microfrontend
+  tags: [javascript]
+  links:
+    - title: repo
+      url: https://github.com/harness/idp-settings-ui
+  annotations:
+    harness.io/cd-serviceId: "idpadmin"
+    harness.io/ci-pipelineIds: Docker_Image
+    backstage.io/kubernetes-label-selector: 'app=idp-admin-ui'
+    harness.io/project-url: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/ci/orgs/default/projects/IDP_Settings_UI/dashboard
+    harness.io/project-url-stage: https://stage.harness.io/ng/account/wFHXHD0RRQWoO8tIZT5YVw/cd/orgs/Harness/projects/Operations/deployments
+    harness.io/projects-stage: Operations,RELEASEBUILDS
+    harness.io/cd-serviceId-stage: idpadmin
+    harness.io/ci-pipelineIds-stage: IDPAdminBuildRelease,IDPAdminCutBranch
+    jira/project-key: IDP
+    backstage.io/source-location: 'url:https://github.com/harness/idp-settings-ui/tree/develop'
+    backstage.io/techdocs-ref: 'url:https://github.com/harness/idp-settings-ui/tree/techdocs'
+    pagerduty.com/service-id: PT5ED69
+    github.com/project-slug: harness/idp-settings-ui
