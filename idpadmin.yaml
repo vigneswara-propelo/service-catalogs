@@ -11,7 +11,7 @@ spec:
     - idp-service
 apiVersion: "backstage.io/v1alpha1"
 metadata:
-  name: "idp-admin"
+  name: "idp-admin-public"
   description: IDP admin/settings microfrontend
   tags: [javascript]
   links:
