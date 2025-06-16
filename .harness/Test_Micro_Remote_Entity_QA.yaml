@@ -1,0 +1,16 @@
+apiVersion: harness.io/v1
+kind: Component
+type: micro
+identifier: test_micro_remote_entity_qa
+name: Test Micro Remote Entity QA
+owner: user:account/vigneswara.mh@harness.io
+spec:
+  lifecycle: production
+  ownedBy:
+  - user:account/vigneswara.mh@harness.io
+metadata:
+  description: Test Micro Remote Entity QA
+  tags:
+  - spotify
+  - rest
+  - store
