@@ -12,3 +12,5 @@ metadata:
   description: Test Website Remote Entity QA
   tags:
   - spotify
+  - rest
+  - store
