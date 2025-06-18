@@ -11,6 +11,7 @@ spec:
 metadata:
   description: Test Scorecard Remote Entity
   annotations:
+    backstage.io/techdocs-ref: .dir
     backstage.io/source-location: url:https://github.com/vigneswara-propelo/python-pipeline-samples
   tags:
   - spotify
