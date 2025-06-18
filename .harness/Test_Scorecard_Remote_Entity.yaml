@@ -10,6 +10,8 @@ spec:
   - user:account/vigneswara.mh@harness.io
 metadata:
   description: Test Scorecard Remote Entity
+  annotations:
+    backstage.io/techdocs-ref: .dir
   tags:
   - spotify
   - rest
