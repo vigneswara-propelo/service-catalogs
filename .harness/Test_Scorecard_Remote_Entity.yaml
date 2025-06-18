@@ -1,0 +1,16 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: test_scorecard_remote_entity
+name: Test Scorecard Remote Entity
+owner: user:account/vigneswara.mh@harness.io
+spec:
+  lifecycle: production
+  ownedBy:
+  - user:account/vigneswara.mh@harness.io
+metadata:
+  description: Test Scorecard Remote Entity
+  tags:
+  - spotify
+  - rest
+  - store
