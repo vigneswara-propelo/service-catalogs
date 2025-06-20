@@ -1,0 +1,17 @@
+apiVersion: harness.io/v1
+kind: Component
+type: component
+identifier: test_pr_for_gitx
+name: Test PR for Gitx
+owner: user:account/samriddhi.daga@harness.io
+orgIdentifier: testorg
+projectIdentifier: testorgidp
+spec:
+  lifecycle: production
+  ownedBy:
+  - user:account/samriddhi.daga@harness.io
+metadata:
+  description: Test description
+  tags:
+  - rest
+  - store
