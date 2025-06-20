@@ -1,0 +1,17 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: test_component_for_project
+name: Test Component for Project
+owner: user:account/samriddhi.daga@harness.io
+orgIdentifier: default
+projectIdentifier: Deepesh_CDE
+spec:
+  lifecycle: production
+  ownedBy:
+  - user:account/samriddhi.daga@harness.io
+metadata:
+  description: test
+  tags:
+  - spotify
+  - rest
