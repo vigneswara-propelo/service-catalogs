@@ -1,0 +1,17 @@
+apiVersion: harness.io/v1
+kind: Component
+type: component
+identifier: test_component_for_hc_proj
+name: Test component for HC Proj
+owner: user:account/samriddhi.daga@harness.io
+orgIdentifier: default
+projectIdentifier: IDP_TEST
+spec:
+  lifecycle: deprecated
+  ownedBy:
+  - user:account/samriddhi.daga@harness.io
+metadata:
+  description: Test
+  tags:
+  - spotify
+  - rest
