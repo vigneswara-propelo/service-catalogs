@@ -1,0 +1,16 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: test_final_github123
+name: Test final github123
+owner: user:account/samriddhi.daga@harness.io
+orgIdentifier: default
+projectIdentifier: IDP_TEST
+spec:
+  lifecycle: production
+  ownedBy:
+  - user:account/samriddhi.daga@harness.io
+metadata:
+  tags:
+  - spotify
+  - store
