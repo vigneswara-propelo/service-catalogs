@@ -1,5 +1,5 @@
 pipeline:
-  name: Test Remote Pipeline QA - SC
+  name: Test Remote Pipeline QA - SC A
   identifier: Test_Remote_Pipeline_QA_SC
   tags: {}
   projectIdentifier: IDP_TEST
