@@ -11,7 +11,7 @@ spec:
   ownedBy:
   - group:account/AAAFF
 metadata:
-  description: Project level 1204
+  description: Project level 1204 test
   tags:
   - spotify
   - rest
