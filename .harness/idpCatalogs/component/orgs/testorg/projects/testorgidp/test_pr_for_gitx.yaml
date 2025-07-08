@@ -7,7 +7,7 @@ owner: user:account/samriddhi.daga@harness.io
 orgIdentifier: testorg
 projectIdentifier: testorgidp
 spec:
-  lifecycle: production
+  lifecycle: production1
   ownedBy:
   - user:account/samriddhi.daga@harness.io
 metadata:
