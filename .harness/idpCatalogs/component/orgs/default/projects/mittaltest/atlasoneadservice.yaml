@@ -15,7 +15,7 @@ metadata:
     github.com/project-slug: https://github.com/wings-software/e2e-enterprise-demo
     backstage.io/kubernetes-id: adservice
     backstage.io/kubernetes-namespace: atlasone-prod
-    backstage.io/source-location: url:https://app.harness.io/ng/account/EeRjnXTnS4GrLG5VNNJZUw/module/code/orgs/demo/repos/IDP-catalog-examples/files/main/~/catalog-examples/Service/boutique/boutique_adservice/
+    backstage.io/source-location: url:https://harness-dev.ghe.com/jenil-jain/test/blob/main/test.yaml
   links:
   - url: http://34.67.7.165/
     title: Prod Website
