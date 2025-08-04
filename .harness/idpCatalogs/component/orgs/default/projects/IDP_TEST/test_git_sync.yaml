@@ -8,6 +8,14 @@ orgIdentifier: default
 projectIdentifier: IDP_TEST
 spec:
   lifecycle: production
+  sourceCode:
+    branch: main
+    monoRepo: false
+    isHarnessCodeRepo: false
+    provider: Github
+    connectorRef: account.Vignesh_Github
+    monoReposubDirectoryPath: ''
+    repoName: Employee-Management-System
   ownedBy:
   - group:account/_account_all_users
 metadata:
