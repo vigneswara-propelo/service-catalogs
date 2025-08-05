@@ -15,7 +15,7 @@ spec:
     provider: Github
     connectorRef: account.Vignesh_Github
     monoReposubDirectoryPath: ''
-    repoName: Employee-Management-System
+    repoName: python-pipeline-samples
   ownedBy:
   - group:account/_account_all_users
 metadata:
