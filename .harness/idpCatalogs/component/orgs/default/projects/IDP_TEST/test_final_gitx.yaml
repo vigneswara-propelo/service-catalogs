@@ -13,7 +13,7 @@ spec:
 metadata:
   description: Test Test
   annotations:
-    backstage.io/source-location: url:https://github.com/vigneswara-propelo/Employee-Management-System
+    backstage.io/source-location: url:https://github.com/vigneswara-propelo/python-pipeline-samples
   tags:
   - store
   - java
