@@ -18,9 +18,6 @@ spec:
     repoName: Employee-Management-System
   ownedBy:
   - group:account/_account_all_users
-metadata:
-  annotations:
-    backstage.io/source-location: url:https://github.com/harness/harness-core
   tags:
   - GitSync
   - sto
