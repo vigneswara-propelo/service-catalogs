@@ -1,0 +1,26 @@
+apiVersion: harness.io/v1
+kind: Component
+type: component
+identifier: test_git_sync
+name: Test Git Sync
+owner: group:account/_account_all_users
+orgIdentifier: default
+projectIdentifier: IDP_TEST
+spec:
+  lifecycle: production
+  sourceCode:
+    branch: main
+    monoRepo: false
+    isHarnessCodeRepo: false
+    provider: Github
+    connectorRef: account.Vignesh_Github
+    monoReposubDirectoryPath: ''
+    repoName: Employee-Management-System
+  ownedBy:
+  - group:account/_account_all_users
+  tags:
+  - GitSync
+  - sto
+metadata:
+  annotations:
+    backstage.io/source-location: url:https://github.com/harness/harness-core

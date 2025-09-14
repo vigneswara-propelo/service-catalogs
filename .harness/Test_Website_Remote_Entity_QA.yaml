@@ -1,0 +1,18 @@
+apiVersion: harness.io/v1
+kind: Component
+type: website
+identifier: test_website_remote_entity_qa
+name: Test Website Remote Entity QA
+owner: user:account/vigneswara.mh@harness.io
+spec:
+  lifecycle: production
+  ownedBy:
+  - user:account/vigneswara.mh@harness.io
+metadata:
+  description: Test Website Remote Entity QA
+  tags:
+  - spotify
+  - rest
+  - java
+  - store
+  - python

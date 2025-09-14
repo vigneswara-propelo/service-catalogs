@@ -1,0 +1,16 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: test_hc_for_org
+name: Test HC for Org
+owner: user:account/samriddhi.daga@harness.io
+orgIdentifier: default
+spec:
+  lifecycle: deprecated
+  ownedBy:
+  - user:account/samriddhi.daga@harness.io
+metadata:
+  description: Test description
+  tags:
+  - rest
+  - store
