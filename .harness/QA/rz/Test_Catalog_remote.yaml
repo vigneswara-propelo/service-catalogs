@@ -7,6 +7,7 @@ owner: user:account/vigneswara.mh@harness.io
 spec:
   lifecycle: production
 metadata:
+  description: Description added
   tags:
   - java
   - spotify
