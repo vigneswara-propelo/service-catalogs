@@ -1,0 +1,12 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: test_catalog_remote
+name: Test Catalog remote
+owner: user:account/vigneswara.mh@harness.io
+spec:
+  lifecycle: production
+metadata:
+  tags:
+  - java
+  - spotify
