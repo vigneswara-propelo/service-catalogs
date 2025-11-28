@@ -7,6 +7,8 @@ owner: artist-relations-team
 orgIdentifier: defaultOrgan
 spec:
   lifecycle: production
+  partOf:
+  - system:account/testing_relations_partOf
 metadata:
   description: The place to be, for great artists
   annotations:
