@@ -16,11 +16,13 @@ spec:
     connectorRef: account.Vignesh_Github
     monoReposubDirectoryPath: ''
     repoName: Employee-Management-System
+    url: https://github.com/vigneswara-propelo/Employee-Management-System/tree/main
   ownedBy:
   - group:account/_account_all_users
   tags:
   - GitSync
   - sto
+  - udp
 metadata:
   annotations:
     backstage.io/source-location: url:https://github.com/harness/harness-core
