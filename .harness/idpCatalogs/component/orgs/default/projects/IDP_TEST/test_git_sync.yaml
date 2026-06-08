@@ -23,7 +23,7 @@ spec:
   - GitSync
   - sto
   - udp
-  - ots
+  - ots1
 metadata:
   annotations:
     backstage.io/source-location: url:https://github.com/harness/harness-core
