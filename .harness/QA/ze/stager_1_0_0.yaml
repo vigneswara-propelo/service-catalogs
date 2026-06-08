@@ -1,0 +1,19 @@
+apiVersion: harness.io/v1
+kind: Component
+type: sample_component
+identifier: stager_1_0_0
+name: Stager 1.0.0
+owner: group:account/AccAdmin
+spec:
+  lifecycle: example
+metadata:
+  description: A python utility to stage artifacts.
+  annotations:
+    backstage.io/source-location: url:https://bitbucket.it.keysight.com/scm/kosiutil/stager.git
+  links:
+  - url: https://api.is.keysight.com/Stager/Latest
+    title: API Documentation
+  tags:
+  - python
+  - pypi
+  - kosi

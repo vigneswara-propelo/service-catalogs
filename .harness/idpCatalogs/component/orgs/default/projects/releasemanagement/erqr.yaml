@@ -1,0 +1,13 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: erqr
+name: erqr
+owner: group:account/AAAFF
+orgIdentifier: default
+projectIdentifier: releasemanagement
+spec:
+  lifecycle: production
+metadata:
+  tags:
+  - spotify
