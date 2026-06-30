@@ -7,7 +7,7 @@ owner: user:account/vigneswara.mh@harness.io
 spec:
   lifecycle: production
 metadata:
-  description: Test Catalog Race Condition Updated <+variable.account.accountId>
+  description: Test Catalog Race Condition Updated <+account.identifier>
   tags:
   - transaction
   - java
