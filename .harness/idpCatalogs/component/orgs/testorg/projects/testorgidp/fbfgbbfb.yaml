@@ -1,0 +1,15 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: fbfgbbfb
+name: fbfgbbfb
+owner: group:account/AccAdmin
+orgIdentifier: testorg
+projectIdentifier: testorgidp
+spec:
+  lifecycle: production
+  ownedBy:
+  - group:account/AccAdmin
+metadata:
+  tags:
+  - spotify
