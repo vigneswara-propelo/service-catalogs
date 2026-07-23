@@ -5,6 +5,7 @@ identifier: Test_Performance_Before_Fix_GItX
 orgIdentifier: default
 projectIdentifier: Vignesh
 name: Test Performance Before Fix GItX
+description: Test Performance Before Fix GItX Description
 owner: user:account/admin@harness.io
 spec:
   lifecycle: experimental
