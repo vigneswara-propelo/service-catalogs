@@ -1,0 +1,12 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: Test_Performance_Before_Fix_GItX.yaml
+name: Test Performance Before Fix GItX
+owner: user:account/admin@harness.io
+spec:
+  lifecycle: experimental
+metadata:
+  tags:
+  - spotify
+  - java
