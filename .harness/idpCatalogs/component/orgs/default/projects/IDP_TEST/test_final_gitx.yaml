@@ -1,0 +1,18 @@
+apiVersion: harness.io/v1
+kind: Component
+type: component
+identifier: test_final_gitx
+name: Test Final Gitx
+owner: user:account/samriddhi.daga@harness.io
+orgIdentifier: default
+projectIdentifier: IDP_TEST
+spec:
+  lifecycle: deprecated
+  ownedBy:
+  - user:account/samriddhi.daga@harness.io
+metadata:
+  description: Test Test
+  annotations:
+    backstage.io/source-location: url:https://github.com/vigneswara-propelo/Employee-Management-System
+  tags:
+  - sto
