@@ -1,7 +1,7 @@
 apiVersion: harness.io/v1
 kind: Component
 type: service
-identifier: Test_Performance_Before_Fix_GItX.yaml
+identifier: Test_Performance_Before_Fix_GItX
 orgIdentifier: default
 projectIdentifier: Vignesh
 name: Test Performance Before Fix GItX
