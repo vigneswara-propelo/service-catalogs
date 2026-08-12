@@ -1,0 +1,16 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: test_inline_entity_qa
+name: Test Inline Entity QA
+owner: user:account/vigneswara.mh@harness.io
+spec:
+  lifecycle: production
+  ownedBy:
+  - user:account/vigneswara.mh@harness.io
+metadata:
+  description: Test Inline Entity QA
+  tags:
+  - spotify
+  - rest
+  - store

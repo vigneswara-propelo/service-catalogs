@@ -1,0 +1,29 @@
+pipeline:
+  name: Test Remote Pipeline QA - SC
+  identifier: Test_Remote_Pipeline_QA_SC
+  tags: {}
+  projectIdentifier: IDP_TEST
+  orgIdentifier: default
+  stages:
+    - stage:
+        name: IDP
+        identifier: IDP
+        description: ""
+        type: IDP
+        spec:
+          platform:
+            os: Linux
+            arch: Amd64
+          runtime:
+            type: Cloud
+            spec: {}
+          execution:
+            steps:
+              - step:
+                  type: Run
+                  name: Run_1
+                  identifier: Run_1
+                  spec:
+                    shell: Sh
+                    command: echo "Hello World - Testing"
+        tags: {}

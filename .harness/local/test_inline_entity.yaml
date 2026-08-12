@@ -1,0 +1,14 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: testimportentity
+name: Test Import Entity
+owner: user:account/vigneswara.mh@harness.io
+spec:
+  lifecycle: production
+metadata:
+  description: Test Import Entity
+  tags:
+  - spotify
+  - rest
+  - store

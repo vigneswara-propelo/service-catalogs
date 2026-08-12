@@ -1,0 +1,38 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: pythonpipelinesamples11
+name: python-pipeline-samples-project
+owner: user:admin
+orgIdentifier: default
+projectIdentifier: IDP_TEST
+spec:
+  lifecycle: experimental
+  providesApi:
+  - api:idp-service-api
+  providesApis:
+  - idp-Service-api
+metadata:
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    gitlab.com/project-id: '43877214'
+    jira/project-key: IDP
+    jenkins.io/github-folder: CDS-68313
+    firehydrant.com/service-name: python-pipeline-samples
+    backstage.io/kubernetes-label-selector: app=idp-ui
+    backstage.io/kubernetes-namespace: invalid
+    github.com/project-slug: vigneswara-propelo/python-pipeline-samples
+    pagerduty.com/service-id: PT5ED69
+    accountIdentifier: zEaak-FLS425IEO7OLzMUg
+    orgIdentifier: default
+    projectIdentifier: IDP_TEST
+    url: https://laxmiharness.pr2.harness.io/ng/account/zEaak-FLS425IEO7OLzMUg/idp-admin/orgs/default/projects/IDP_TEST/pipelines/GitHub_Repo_Onboarding/pipeline-studio/?storeType=INLINE&stageId=IDP&sectionId=EXECUTION
+    harness.io/pipelines: |
+      Build: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/home/orgs/default/projects/IDP_UI/pipelines/Build_IDP_UI_App/pipeline-studio/?storeType=INLINE
+      Lint: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/home/orgs/default/projects/IDP_UI/pipelines/Lint/pipeline-studio
+      TypeCheck: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/home/orgs/default/projects/IDP_UI/pipelines/Typecheck/pipeline-studio
+    grafana/dashboard-selector: (tags @> 'prometheus' || tags @> 'blackbox')
+    npm_token: npm_adfevegevef
+    backstage.io/source-location: url:https://github.com/vigneswara-propelo/python-pipeline-samples/tree/main/
+  tags:
+  - python-pipeline

@@ -1,0 +1,17 @@
+apiVersion: harness.io/v1
+kind: Component
+type: cdlksc
+identifier: nkldsnckldc
+name: nkldsnckldc
+owner: group:account/AdmunTest
+orgIdentifier: default
+projectIdentifier: IDP_TEST
+spec:
+  lifecycle: deprecated
+  ownedBy:
+  - group:account/AdmunTest
+metadata:
+  description: csdl c
+  tags:
+  - spotify
+  - rest

@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Group
+type: team
+identifier: Test_Team_GitX
+name: Test Team GitX
+spec:
+  lifecycle: ''
+  members: []
+metadata:
+  tags:
+  - team

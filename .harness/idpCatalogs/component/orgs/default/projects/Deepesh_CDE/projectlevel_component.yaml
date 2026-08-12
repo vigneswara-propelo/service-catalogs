@@ -1,0 +1,16 @@
+apiVersion: harness.io/v1
+kind: Component
+type: component
+identifier: projectlevel_component
+name: ProjectLevel component gest
+owner: group:account/AAAFF
+orgIdentifier: default
+projectIdentifier: Deepesh_CDE
+spec:
+  lifecycle: production
+metadata:
+  description: ProjectLevel component
+  tags:
+  - spotify
+  - rest
+  - store

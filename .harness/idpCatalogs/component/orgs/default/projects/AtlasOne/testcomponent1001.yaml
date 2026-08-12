@@ -1,0 +1,15 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: testcomponent1001
+name: testcomponent100-1
+owner: group:account/AAAFF
+orgIdentifier: default
+projectIdentifier: AtlasOne
+spec:
+  lifecycle: production
+  ownedBy:
+  - group:account/AAAFF
+metadata:
+  tags:
+  - spotify

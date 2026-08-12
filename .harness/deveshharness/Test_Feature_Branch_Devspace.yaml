@@ -12,3 +12,5 @@ metadata:
   - java
   - mqtt
   - rest
+  - authentication
+  - harnesscode
