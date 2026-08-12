@@ -1,0 +1,15 @@
+apiVersion: harness.io/v1
+kind: Group
+type: team
+identifier: Test_GitX_Team
+name: Test GitX Team
+spec:
+  lifecycle: ''
+  parent: group:account/business_systems
+  leaders:
+  - user:account/aashrit.garg@harness.io
+  members:
+  - user:account/vigneswara.mh@harness.io
+metadata:
+  tags:
+  - team
