@@ -1,0 +1,35 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: atlasoneadservice
+name: 'AtlasOne-adservice '
+owner: test owner field
+orgIdentifier: default
+projectIdentifier: mittaltest
+spec:
+  lifecycle: experimental
+metadata:
+  description: Ad Service for the AtlasOne online
+  annotations:
+    jenkins.io/github-folder: danf-test/test
+    github.com/project-slug: https://github.com/wings-software/e2e-enterprise-demo
+    backstage.io/kubernetes-id: adservice
+    backstage.io/kubernetes-namespace: atlasone-prod
+    backstage.io/source-location: url:https://harness-dev.ghe.com/jenil-jain/test/blob/main/test.yaml
+  links:
+  - url: http://34.67.7.165/
+    title: Prod Website
+    icon: dashboard
+    type: AtlasOne FrontEnd
+  - url: http://34.28.46.65
+    title: QA Website
+    icon: dashboard
+    type: AtlasOne FrontEnd
+  - url: http://34.135.60.81/
+    title: Dev Website
+    icon: dashboard
+    type: AtlasOne FrontEnd
+  tags:
+  - spotify
+  - rest
+  - store

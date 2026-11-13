@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Group
+type: team
+identifier: Test_GItX_Team1
+name: Test GItX Team1
+spec:
+  lifecycle: ''
+  members: []
+metadata:
+  tags:
+  - java

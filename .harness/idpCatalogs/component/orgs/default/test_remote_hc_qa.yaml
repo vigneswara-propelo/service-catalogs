@@ -1,0 +1,16 @@
+apiVersion: harness.io/v1
+kind: Component
+type: website
+identifier: test_remote_hc_qa
+name: Test Remote HC QA
+owner: user:account/vigneswara.mh@harness.io
+orgIdentifier: default
+spec:
+  lifecycle: production
+  ownedBy:
+  - user:account/vigneswara.mh@harness.io
+metadata:
+  description: Test Remote HC QA
+  tags:
+  - rest
+  - java

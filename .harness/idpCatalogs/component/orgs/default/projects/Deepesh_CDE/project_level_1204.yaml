@@ -1,0 +1,20 @@
+apiVersion: harness.io/v1
+kind: Component
+type: component
+identifier: project_level_1204
+name: Project level 1204
+owner: group:account/AAAFF
+orgIdentifier: default
+projectIdentifier: Deepesh_CDE
+spec:
+  lifecycle: experimental
+  ownedBy:
+  - group:account/AAAFF
+metadata:
+  description: Project level 1204 test
+  tags:
+  - spotify
+  - rest
+  - store
+  - test
+  - sathish

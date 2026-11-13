@@ -1,0 +1,18 @@
+apiVersion: harness.io/v1
+kind: Component
+type: component
+identifier: projectlevel_component_deepesh
+name: ProjectLevel component updated 1
+owner: deepesh.kumar@harness.io
+orgIdentifier: default
+projectIdentifier: Deepesh_CDE
+spec:
+  lifecycle: production
+metadata:
+  description: ProjectLevel component Deepesh ProjectLevel component Deepesh ProjectLevel
+    component Deepesh
+  tags:
+  - spotify
+  - rest
+  - store
+  - java

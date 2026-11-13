@@ -1,0 +1,14 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: test_remote_entity_hc_qa_org_new
+name: Test Remote Entity HC QA Org New
+owner: user:account/vigneswara.mh@harness.io
+orgIdentifier: default
+spec:
+  lifecycle: production
+  ownedBy:
+  - user:account/vigneswara.mh@harness.io
+metadata:
+  tags:
+  - spotify

@@ -1,0 +1,16 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: test_abc
+name: test abc
+owner: group:account/AccAdmin
+orgIdentifier: default
+projectIdentifier: default_project
+spec:
+  lifecycle: production-test
+  ownedBy:
+  - group:account/AccAdmin
+metadata:
+  description: test abc
+  tags:
+  - rest

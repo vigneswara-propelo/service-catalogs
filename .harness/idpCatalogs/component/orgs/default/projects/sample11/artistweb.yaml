@@ -1,0 +1,24 @@
+apiVersion: harness.io/v1
+kind: Component
+type: website
+identifier: artistweb
+name: artistweb
+owner: artist-relations-team
+orgIdentifier: default
+projectIdentifier: sample11
+spec:
+  lifecycle: production
+metadata:
+  description: The place to be, for great artists
+  annotations:
+    example.com/service-discovery: artistweb
+    circleci.com/project-slug: github/example-org/artist-website
+  links:
+  - url: https://admin.example-org.com
+    title: Admin Dashboard
+    icon: dashboard
+    type: admin-dashboard
+  labels:
+    example.com/custom: custom_label_value
+  tags:
+  - java
